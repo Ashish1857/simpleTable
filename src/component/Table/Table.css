@@ -1,0 +1,23 @@
+.container {
+  width: 95vw;
+}
+
+table {
+  width: 100%;
+}
+
+.header {
+  font-size: 13px;
+  font-weight: 500px;
+  color: gray;
+}
+.table-row {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.cell {
+  text-align: left;
+  width: 400px;
+}
