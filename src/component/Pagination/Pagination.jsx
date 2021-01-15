@@ -5,15 +5,9 @@ const Pagination = ({ dataPerPage, totalData, paginate }) => {
   for (let i = 1; i <= Math.ceil(totalData / dataPerPage); i++) {
     pageNumbers.push(i);
   }
-
-  console.log({
-    pageNumbers: pageNumbers,
-    dataPerPage: dataPerPage,
-    totalData: totalData
-  });
   return (
     <nav>
-      <ul className="pagination">
+      <ul style={{justifyContent:"center"}}className="pagination">
         {pageNumbers &&
           pageNumbers.length > 1 &&
           pageNumbers.map((number) => (

@@ -1,9 +1,10 @@
 import React from "react";
+import './Filter.css'
 
 const Filter = ({ value, onChange }) => {
   return (
     <div>
-      <input className="filter" type="text" value={value} onChange={onChange} />
+      <input placeholder='search by Campaign Name' className="filter" type="text" value={value} onChange={onChange} />
     </div>
   );
 };
