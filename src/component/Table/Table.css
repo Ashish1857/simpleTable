@@ -1,9 +1,8 @@
 .container {
   width: 95vw;
-  border: solid 1px black;
   display: flex;
- margin-top: 5%;
- 
+  margin-top: 5%;
+  box-shadow: 1px 2px 5px 5px rgba(136, 136, 136, 0.44);
 }
 
 table {
@@ -11,7 +10,7 @@ table {
 }
 
 .header {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 500px;
   color: gray;
 }

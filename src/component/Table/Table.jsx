@@ -10,7 +10,7 @@ const Header=()=>{
     <tr className="table-row">
       <th className="column header cell">Campaign Name</th>
       <th className="column header cell">Type</th>
-      <th className="column header cell">company</th>
+      <th className="column header cell">Company</th>
     </tr>
   )
 }
