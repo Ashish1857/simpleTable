@@ -54,11 +54,7 @@ const Table = () => {
             onChange={(e) => {
               let val = e.target.value;
               setSearchValue(val);
-              console.log(val)
-
-            
                 delayedQuery(val);
-       
             }}
           />
           <table className="table">
